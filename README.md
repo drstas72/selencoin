@@ -22,4 +22,4 @@ rpcport=55551<br>
 port=55552<br>
 addnode=selencoin.for-biz.com
 
-
+See <a href="INSTALL">installation notes</a>
