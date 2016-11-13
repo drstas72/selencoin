@@ -1,5 +1,4 @@
-# selencoin
-<h2>SelenCoin</h2>
+# SelenCoin
 
 Safe, Reliable, Profitable
 
