@@ -4,20 +4,22 @@
 
 ##Selen Information:
 
-#RPC Port: 55551
-#P2P Port: 55552
+RPC Port: 55551<br>
+P2P Port: 55552<br>
 
-#Algorithm: POS
-#Ticker: SEL
-#PoS 100% Annual Interest
-#Total coins: 159680000
-#Block mature: 20 confirmations
+Algorithm: POS<br>
+Ticker: SEL<br>
+PoS 100% Annual Interest<br>
+Total coins: 159680000<br>
+Block mature: 20 confirmations<br>
 
-===
-#selen.conf
-#rpcuser=user
-#rpcpassword=password
-#rpcallowip=127.0.0.1
-#rpcport=55551
-#port=55552
-#addnode=for-biz.com
+===<br>
+selen.conf<br>
+rpcuser=user<br>
+rpcpassword=password<br>
+rpcallowip=127.0.0.1<br>
+rpcport=55551<br>
+port=55552<br>
+addnode=selencoin.for-biz.com
+
+
