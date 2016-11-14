@@ -226,7 +226,7 @@ void ThreadIRCSeed2(void* parg)
     {
         CService addrConnect("38.229.70.22", 6667); // irc.freenode.org
 
-        CService addrIRC("irc.freenode.org", 6667, true);
+        CService addrIRC("chat.freenode.net", 6667, true);
         if (addrIRC.IsValid())
             addrConnect = addrIRC;
 
