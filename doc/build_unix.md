@@ -43,6 +43,7 @@ QT GUI wallet interface
 ```
 git clone https://github.com/drstas72/selencoin.git
 cd selencoin
+chmod +x ./src/leveldb/build_detect_platform
 qmake "USE_UPNP=-"
 make
 sudo cp selen-qt /usr/local/bin/
