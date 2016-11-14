@@ -24,4 +24,4 @@ port=55552
 addnode=selencoin.for-biz.com
 ```
 
-See <a href="/INSTALL">installation notes</a>
+See <a href="/doc">installation notes</a>
