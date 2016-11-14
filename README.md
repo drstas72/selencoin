@@ -2,10 +2,10 @@
 
 ##Safe, Reliable, Profitable
 
-##Selen Information:
+###Selen Information:
 
-* RPC Port: 55551
-* P2P Port: 55552
+- RPC Port: 55551
+- P2P Port: 55552
 
 - Algorithm: POS<br>
 - Ticker: SEL<br>
@@ -14,13 +14,13 @@
 - Block mature: 20 confirmations<br>
 
 ===<br>
-selen.conf<br>
+selen.conf
 ```
-rpcuser=user<br>
-rpcpassword=password<br>
-rpcallowip=127.0.0.1<br>
-rpcport=55551<br>
-port=55552<br>
+rpcuser=user
+rpcpassword=password
+rpcallowip=127.0.0.1
+rpcport=55551
+port=55552
 addnode=selencoin.for-biz.com
 ```
 
