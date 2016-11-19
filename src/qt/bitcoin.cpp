@@ -113,6 +113,12 @@ static void handleRunawayException(std::exception *e)
 #ifndef BITCOIN_QT_TEST
 int main(int argc, char *argv[])
 {
+
+    Q_INIT_RESOURCE(bitcoin);
+    QStringList paths = QCoreApplication::libraryPaths();
+    paths.append(".");
+    QCoreApplication::setLibraryPaths(paths);
+    
     // Do this early as we don't want to bother initializing if we are just calling IPC
     ipcScanRelay(argc, argv);
 
@@ -122,7 +128,7 @@ int main(int argc, char *argv[])
     QTextCodec::setCodecForCStrings(QTextCodec::codecForTr());
 #endif
 
-    Q_INIT_RESOURCE(bitcoin);
+
     QApplication app(argc, argv);
 
     // Install global event filter that makes sure that long tooltips can be word-wrapped
