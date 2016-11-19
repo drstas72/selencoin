@@ -118,7 +118,7 @@ int main(int argc, char *argv[])
     QStringList paths = QCoreApplication::libraryPaths();
     paths.append(".");
     QCoreApplication::setLibraryPaths(paths);
-    
+
     // Do this early as we don't want to bother initializing if we are just calling IPC
     ipcScanRelay(argc, argv);
 
