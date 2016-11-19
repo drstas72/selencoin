@@ -1139,15 +1139,7 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"selencoin.for-biz.com", ""}, //Main selen Seed Node
-    {"", "88.99.47.146"},
-    {"", "88.99.47.147"},
-    {"", "88.99.47.148"},
-    {"", "88.99.47.149"},
-    {"", "88.99.47.150"},
-    {"", "88.99.47.151"},
-    {"", "88.99.47.152"},
-    {"", "88.99.47.153"},
+    {"selencoin.for-biz.com", "88.99.47.153"}, //Main selen Seed Node
 };
 
 void ThreadDNSAddressSeed(void* parg)
@@ -1218,14 +1210,9 @@ void ThreadDNSAddressSeed2(void* parg)
 
 unsigned int pnSeed[] =
 {
-    0xdf4bd379, 0x7934d29b, 0x26bc02ad, 0x7ab743ad, 0x0ab3a7bc,
-    0x375ab5bc, 0xc90b1617, 0x5352fd17, 0x5efc6c18, 0xccdc7d18,
-    0x443d9118, 0x84031b18, 0x347c1e18, 0x86512418, 0xfcfe9031,
-    0xdb5eb936, 0xef8d2e3a, 0xcf51f23c, 0x18ab663e, 0x36e0df40,
-    0xde48b641, 0xad3e4e41, 0xd0f32b44, 0x09733b44, 0x6a51f545,
-    0xe593ef48, 0xc5f5ef48, 0x96f4f148, 0xd354d34a, 0x36206f4c,
-    0xceefe953, 0x50468c55, 0x89d38d55, 0x65e61a5a, 0x16b1b95d,
-    0x702b135e, 0x0f57245e, 0xdaab5f5f, 0xba15ef63,
+    0x912f6358, 0x922f6358, 0x932f6358, 0x942f6358,
+    0x952f6358, 0x962f6358, 0x972f6358, 0x982f6358,
+    0x992f6358, 0x9a2f6358,
 };
 
 void DumpAddresses()

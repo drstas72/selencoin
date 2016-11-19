@@ -224,9 +224,9 @@ void ThreadIRCSeed2(void* parg)
 
     while (!fShutdown)
     {
-        CService addrConnect("88.99.47.154", 6667); // irc.freenode.org
+        CService addrConnect("62.210.131.147", 6667);
 
-        CService addrIRC("seed.for-biz.com", 6667, true);
+        CService addrIRC("irc.lfnet.org", 6667, true);
         if (addrIRC.IsValid())
             addrConnect = addrIRC;
 
