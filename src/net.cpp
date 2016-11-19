@@ -1139,7 +1139,7 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"selencoin.for-biz.com", "88.99.47.153"}, //Main selen Seed Node
+    {"selencoin.for-biz.com", "88.99.47.154"}, //Main selen Seed Node
 };
 
 void ThreadDNSAddressSeed(void* parg)
@@ -1210,9 +1210,9 @@ void ThreadDNSAddressSeed2(void* parg)
 
 unsigned int pnSeed[] =
 {
-    0x912f6358, 0x922f6358, 0x932f6358, 0x942f6358,
-    0x952f6358, 0x962f6358, 0x972f6358, 0x982f6358,
-    0x992f6358, 0x9a2f6358,
+    0x58632F92, 0x58632F93, 0x58632F94, 0x58632F95,
+    0x58632F96, 0x58632F97, 0x58632F98, 0x58632F99,
+    0x58632F9A
 };
 
 void DumpAddresses()
@@ -1373,6 +1373,7 @@ void ThreadOpenConnections2(void* parg)
                 CAddress addr(CService(ip, GetDefaultPort()));
                 addr.nTime = GetTime()-GetRand(nOneWeek)-nOneWeek;
                 vAdd.push_back(addr);
+                printf("Add node ip %s\n", addr);
             }
             addrman.Add(vAdd, CNetAddr("127.0.0.1"));
         }

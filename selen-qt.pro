@@ -14,11 +14,11 @@ greaterThan(QT_MAJOR_VERSION, 4) {
     DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0
 }
 
-#BOOST_LIB_SUFFIX=-mgw48-mt-s-1_55
-#BOOST_INCLUDE_PATH=C:/deps/boost_1_55_0
-#BOOST_LIB_PATH=C:/deps/boost_1_55_0/stage/lib
-#BDB_INCLUDE_PATH=C:/deps/db-4.8.30.NC/build_unix
-#BDB_LIB_PATH=C:/deps/db-4.8.30.NC/build_unix
+#BOOST_LIB_SUFFIX=-mgw53-mt-s-1_62
+#BOOST_INCLUDE_PATH=C:/deps/boost_1_62_0
+#BOOST_LIB_PATH=C:/deps/boost_1_62_0/stage/lib
+#BDB_INCLUDE_PATH=C:/deps/db-5.0.32.NC/build_unix
+#BDB_LIB_PATH=C:/deps/db-5.0.32.NC/build_unix
 #OPENSSL_INCLUDE_PATH=C:/deps/openssl-1.0.1h/include
 #OPENSSL_LIB_PATH=C:/deps/openssl-1.0.1h
 #MINIUPNPC_INCLUDE_PATH=C:/deps
